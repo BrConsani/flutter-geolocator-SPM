@@ -22,7 +22,8 @@ let package = Package(
             ],
             publicHeadersPath: "include/geolocator_apple",
             cSettings: [
-                .headerSearchPath("include/geolocator_apple")
+                .headerSearchPath("include/geolocator_apple"),
+                .define("BYPASS_PERMISSION_LOCATION_ALWAYS", to: "1")
             ]
         )
     ]
