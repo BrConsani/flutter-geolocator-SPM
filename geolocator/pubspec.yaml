@@ -28,12 +28,12 @@ dependencies:
   flutter:
     sdk: flutter
 
-  geolocator_platform_interface: ^4.2.3
-  geolocator_android: ^5.0.3
-  geolocator_apple: ^2.3.14
-  geolocator_web: ^4.1.4
-  geolocator_windows: ^0.2.3
-  geolocator_linux: ^0.2.6
+  geolocator_platform_interface: ../
+  geolocator_android: ../
+  geolocator_apple: ../
+  geolocator_web: ../
+  geolocator_windows: ../
+  geolocator_linux: ../
 
 dev_dependencies:
   flutter_test:
