@@ -17,6 +17,12 @@ flutter:
         default_package: geolocator_apple
       macos:
         default_package: geolocator_apple
+      web:
+        default_package: geolocator_web
+      windows:
+        default_package: geolocator_windows
+      linux:
+        default_package: geolocator_linux
 
 dependencies:
   flutter:
@@ -28,6 +34,12 @@ dependencies:
     path: ../geolocator_android
   geolocator_apple: 
     path: ../geolocator_apple
+  geolocator_linux: 
+    path: ../geolocator_linux
+ geolocator_web: 
+    path: ../geolocator_web
+ geolocator_windows: 
+    path: ../geolocator_windows
 
 dev_dependencies:
   flutter_test:
