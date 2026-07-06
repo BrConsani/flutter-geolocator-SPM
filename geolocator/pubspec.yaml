@@ -36,9 +36,9 @@ dependencies:
     path: ../geolocator_apple
   geolocator_linux: 
     path: ../geolocator_linux
- geolocator_web: 
+  geolocator_web: 
     path: ../geolocator_web
- geolocator_windows: 
+  geolocator_windows: 
     path: ../geolocator_windows
 
 dev_dependencies:
